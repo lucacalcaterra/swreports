@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "lucacalcaterra/swreports",
+    "description": "This is my package swreports",
     "keywords": [
-        ":vendor_name",
+        "lucacalcaterra",
         "laravel",
-        ":package_slug"
+        "swreports"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/lucacalcaterra/swreports",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Luca Calcaterra",
+            "email": "calcaterra.luca@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Lucacalcaterra\\Swreports\\": "src",
+            "Lucacalcaterra\\Swreports\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Lucacalcaterra\\Swreports\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Lucacalcaterra\\Swreports\\SwreportsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Swreports": "Lucacalcaterra\\Swreports\\Facades\\Swreports"
             }
         }
     },

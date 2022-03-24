@@ -2,9 +2,9 @@
 
 namespace Lucacalcaterra\Swreports;
 
+use Lucacalcaterra\Swreports\Commands\SwreportsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lucacalcaterra\Swreports\Commands\SwreportsCommand;
 
 class SwreportsServiceProvider extends PackageServiceProvider
 {
